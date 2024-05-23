@@ -1,4 +1,17 @@
-h1 {
+html,
+body {
+  height: 100%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
   text-align: center;
-  margin-top: 20%;
+}
+
+.cont img {
+  max-width: 100%;
+  height: auto;
 }
